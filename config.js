@@ -114,13 +114,13 @@ var config = {
              image: 'https://i.ibb.co/zh4csLZb/3.png',
             description: '',
             location: {
-              center: [29.11192680679872,40.93587513162109],
-                zoom: 15,
-                pitch: 40,
+              center: [29.104272893096095,40.93159029802317],
+                zoom: 14,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
@@ -136,35 +136,6 @@ var config = {
                 // }
             ]
         },
-        {
-            id: '4',
-            alignment: 'centered',
-            hidden: false,
-            title: '',
-             image: '',
-            description: '',
-            location: {
-                 center: [29.11192680679872,40.93587513162109],
-                zoom: 16,
-                pitch: 40,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: true,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
+       ,
     ]
 };
