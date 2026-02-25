@@ -41,7 +41,7 @@ var config = {
                 //curve: 0, // change the speed at which it zooms out
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
@@ -60,7 +60,7 @@ var config = {
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
@@ -111,7 +111,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '',
-             image: 'https://i.ibb.co/zh4csLZb/3.png',
+             image: 'https://i.ibb.co/5Xxq22w4/a3.png',
             description: '',
             location: {
               center: [29.104272893096095,40.93159029802317],
